@@ -1,0 +1,7 @@
+while :
+do
+echo "To run FlapPy Bird, you need Python 3. Download it at https://www.python.org/downloads/"
+script_full_path=$(dirname "$0");
+python3 "$script_full_path/internals/flapPy Bird.py"
+	
+done
